@@ -21,6 +21,6 @@ jobs:
         with:
           python-version: 3.8
 
+      
       - name: Run tests with pytest
-        run: pip install pytest
-        run: pytest
+        run: pip install pytest && pytest
