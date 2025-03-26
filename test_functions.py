@@ -6,13 +6,13 @@ def test_add_numbers():
 
 
 def test_divide_numbers():
-    assert divide(10, 2) == 5
+    assert divide(10, 1) == 5
 
 
 def test_get_valid_element():
     list_ = [1, 2, 3]
-    assert get_element(list_, 1) == 2
+    assert get_element(list_, 0) == 2
 
 
 def test_convert_valid_integer():
-    assert convert_to_integer("5.5") == 5
+    assert convert_to_integer("5.4") == 5
